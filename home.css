@@ -1,0 +1,27 @@
+
+.ic{
+    padding: 60px;
+    border: 6px solid rgb(89, 197, 233);
+    border-radius: 50%;
+    color:blue;
+    
+}
+.light-blue{
+    color: rgb(89, 197, 233);
+}
+.light-bluebg{
+    background-color: rgb(89, 197, 233);
+
+}
+.hvColor:hover{
+    background-color: blue;
+}
+.blue{
+    color: blue;
+}
+.bd{
+    border:3px solid rgb(89, 197, 233);
+}
+.ta{
+    border: 2px solid gray;
+}
