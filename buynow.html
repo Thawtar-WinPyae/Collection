@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porto Buy Now</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12" style="position: sticky; top:0">
+                <nav class="navbar navbar-expand-lg navbar-light py-4 bg-white">
+                    <div class="container">
+                      <a class="navbar-brand" href="home.html"><img src="../porto/logo.png" class="img-fluid pe-5"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                          <li class="nav-item px-2">
+                            <a class="nav-link active" aria-current="page" href="#intro"><small class="fw-bold">Intro</small></a>
+                          </li>
+                          <li class="nav-item px-2">
+                            <a class="nav-link" href="#feature"><small class="fw-bold">Features</small></a>
+                          </li>
+                          <li class="nav-item px-2">
+                            <a class="nav-link" href="#tour"><small class="fw-bold">Tour</small></a>
+                          </li>
+                          <li class="nav-item px-2">
+                            <a class="nav-link" href="#spec"><small class="fw-bold">Specifications</small></a>
+                          </li>
+                          <li class="nav-item px-2">
+                            <a class="nav-link" href="#review"><small class="fw-bold">Reviews</small></a>
+                          </li>
+                          <li class="nav-item px-2">
+                            <a class="nav-link" href="#buynow"><small class="fw-bold">Buy Now</small></a>
+                          </li>
+                          <li class="nav-item dropdown ps-5">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <small class="fw-bold">USD</small>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Euro</a></li>
+                              <li><a class="dropdown-item" href="#">BRL</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item dropdown px-2">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <small class="fw-bold">ENG</small>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <li><a class="dropdown-item" href="#">Euro</a></li>
+                              <li><a class="dropdown-item" href="#">BRL</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+            </div>
+            <div class="col-12 bg-light">
+                <div class="container">
+                    <div class="row py-5">
+                        <div class="col-12">
+                            <div class="row">
+                                <div class="col">
+                                    <p class="h2 fw-bold">Checkout</p>
+                                </div>
+                                <div class="col text-end">
+                                    <a href="home.html">HOME</a><span>  >  CHECKOUT</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 pt-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 mb-5">
+                            <p>Returning Customer? <span class="fw-bold"><a href="#">LOGIN</a></span></p>
+                            <p>Have a cupon? <span class="fw-bold"><a href="#">ENTER YOUR CODE</a></span></p>
+                            <form>
+                                <div class="d-flex">
+                                    <div class="col-12 col-md-7">
+                                        <p class="h2">Billing Details</p>
+                                        <div class="row pt-5">
+                                            <div class="col-12 col-md-6">
+                                                <label for="fname">First Name*</label><br>
+                                                <input type="text" class="form-control w-100">
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <label for="lname">Last Name*</label><br>
+                                                <input type="text" class="form-control w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="cname">Company Name*</label><br>
+                                                <input type="text" class="form-control w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="">Company/Region*</label><br>
+                                                <select class="w-100 form-control">
+                                                    <option selected disabled></option>
+                                                    <option>US</option>
+                                                    <option>Spain</option>
+                                                    <option>France</option>
+                                                    <option>UK</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="">Street Address*</label><br>
+                                                <input type="text" placehoform-control lder="House Number And Street Name" class="form-control w-100 mb-3">
+                                                <input type="text" placehoform-control lder="Apartment, Suite, Unit, etc..." class="form-control w-100">
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="">Town/City*</label><br>
+                                                <input type="text" class="form-control w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="">State*</label><br>
+                                                <input type="text" class="form-control w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="">ZIP*</label><br>
+                                                <input type="text" class="form-control w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="">Phone*</label><br>
+                                                <input type="text" class="form-control w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="">Email Address*</label><br>
+                                                <input type="text" class="form-control w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <input type="checkbox">
+                                                <label>Create an account ?</label><br>
+                                                <input type="checkbox">
+                                                <label>Shop to a different address ?</label>
+                                            </div>
+                                        </div>
+    
+                                        <div class="row pt-5">
+                                            <div class="col-12 col-md-6">
+                                                <label for="fname">First Name*</label><br>
+                                                <input type="text" class="form-control w-100">
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <label for="lname">Last Name*</label><br>
+                                                <input type="text" class="form-control w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="cname">Company Name*</label><br>
+                                                <input type="text" class="form-control w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="">Company/Region*</label><br>
+                                                <select class="w-100">
+                                                    <option selected disabled></option>
+                                                    <option>US</option>
+                                                    <option>Spain</option>
+                                                    <option>France</option>
+                                                    <option>UK</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="">Street Address*</label><br>
+                                                <input type="text" placeholder="House Number And Street Name" class="form-control w-100 mb-3">
+                                                <input type="text" placeholder="Apartment, Suite, Unit, etc..." class="form-control w-100">
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="">Town/City*</label><br>
+                                                <input type="text" class="form-control w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="">State*</label><br>
+                                                <input type="text" class="form-control w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="">ZIP*</label><br>
+                                                <input type="text" class="form-control w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="">Phone*</label><br>
+                                                <input type="text" class="form-control w-100">
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5">
+                                            <div class="col-12">
+                                                <label for="">Order Notes*</label><br>
+                                                <textarea placeholder="Note about you orderm eg.special note for delivery" class="form-control w-100 h-100"></textarea>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="col-12 col-md-5 ps-3">
+                                        <div class="border border-2 px-5 pt-5 pb-5">
+                                            <p class="h5 fw-bold">YOUR ORDER</p>
+                                            <p class="fw-bold">Product</p>
+                                            <hr>
+                                            <table class="border border-0 w-100">
+                                                <tr>
+                                                    <td>
+                                                        <p class="fw-bold">Porto Headphone x1</p>
+                                                        <p class="text-uppercase gray">color black</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="gray text-end">$350</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <p class="fw-bold">Subtotal</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="gray text-end">$350</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <hr>
+                                            <table class="border border-0 w-100">
+                                                <tr>
+                                                    <td>
+                                                        <p class="fw-bold">Shipping</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" checked>   Free Shipping<br>
+                                                        <input type="radio">   Local Pickup<br>
+                                                        <input type="radio">   Flat Rate: $5.00
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="border border-0 w-100">
+                                                <tr>
+                                                    <td>
+                                                        <p class="fw-bold">Total</p>
+                                                    </td>
+                                                    <td>
+                                                        <p class="h5 text-end">$431</p>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <table class="border border-0 w-100">
+                                                <tr>
+                                                    <td>
+                                                        <p class="fw-bold">Payment Method</p>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="radio" checked>   Cash On Delivery<br>
+                                                        <input type="radio">   PayPal  
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                            <hr>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button class="btn btn-danger text-white py-3 w-100">PLACE ORDER</button>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-12 mt-5">
+                            <div class="d-flex">
+                                <div class="col-12 col-md-6">
+                                    <p class="h5 fw-bold">CUSTOMER SERVICE</p>
+                                    <ul class="list-unstyled d-flex">
+                                        <li class="pe-3 border-end"><a href="#">Help & FAQs</a></li>
+                                        <li class="px-3 border-end"><a href="#">Order Tracking</a></li>
+                                        <li class="px-3 border-end"><a href="#">Shipping & Delivery</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-12 col-md-3">
+                                    <p class="h5 fw-bold">SOCIAL MEDIA</p>
+                                    <div class="d-flex pt-3">
+                                        <div class="col-2">
+                                            <a href="#">
+                                                <i class="fa fa-facebook"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-2">
+                                            <a href="#">
+                                                <i class="fa fa-twitter"></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-2">
+                                            <a href="#">
+                                                <i class="fa fa-instagram"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-3">
+                                    <p class="h5 fw-bold">PAYMENT METHODS</p>
+                                    <div class="d-flex pt-3">
+                                        <div class="col-1">
+                                            <a href="#">
+                                                <i class=""></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-1">
+                                            <a href="#">
+                                                <i class=""></i>
+                                            </a>
+                                        </div>
+                                        <div class="col-1">
+                                            <a href="#">
+                                                <i class=""></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <hr>
+                            <p class="text-center small">
+                                Porto Product Landing © Copyright 2023. All Rights Reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
